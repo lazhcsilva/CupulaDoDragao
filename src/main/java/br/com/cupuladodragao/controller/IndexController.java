@@ -11,4 +11,9 @@ public class IndexController {
 		return "index";
 	}
 	
+	@GetMapping("/cadastro")
+	public String cadastro() {
+		return "cadastro";
+	}
+	
 }
