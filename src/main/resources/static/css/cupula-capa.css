@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600");
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Configurações Gerais */
+
+html, body{
+	height: 100%;
+	background: #f1f1f1;
+	color: #2c3e50;
+	font: 14px/1 'Open Sans', sans-serif;
+}
+
+p {
+	font: 12px/1 'Open Sans', sans-serif;
+	color: #777;
+}
+
+h1{
+	font-size: 38px;
+	line-height: 44px;
+	font-weight: 700;
+}
+
+h2{
+	margin-bottom: 10px;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+}
+
+/* Barra de Navegação */
+
+.nav-principal{
+	padding: 25px;
+}
+
+.nav-secundario{
+	margin: 0px 25px;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+nav li{
+	display: inline;
+}
+
+/* Corpo do site */
+
+.col{
+	padding: 5px;
+}

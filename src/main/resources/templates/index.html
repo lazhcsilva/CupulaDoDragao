@@ -1,10 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 	<head>
 	<meta charset="UTF-8">
+	<meta name="description" content="Noticias do mundo Nerd: Cinema, Series, Games e muito mais">
 	<title>Cupula do Dragão</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/cupula-capa.css">
 	</head>
 	<body>
-		<h1>Vida longa e prospera</h1>
+		<section class="nav-principal">
+			<nav class="navbar">
+				<a href="/index">
+					<img src="/img/cupula-logo.svg" width="50" height="50" alt="Cúpula do Dragão">
+				</a>
+				<ul class="nav justify-content-end">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Perfil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contato</a>
+					</li>
+				</ul>
+			</nav>	
+		</section>
+		<section>
+			<div class="container">
+				<div class="nav-secundario">
+					<ul class="nav justify-content-center">
+						<li class="nav-item"><a class="nav-link" href="#">Cinema</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Séries</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Games</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Podcast</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Crítica</a></li>
+					</ul>
+				</div>
+				<div class="row">
+					<div class="col area1 col-lg-8">
+						<div class="row">
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img class="card-img-top" src".../100px100" alt="Imagem">
+									<div class="card-body">
+										<h5 class="card-title">Noticia 1</h5>
+										<p> Exemplo de noticia para verificação de identação</p>
+										<a href="#" class="btn btn-primary">Visitar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img class="card-img-top" src".../100px100" alt="Imagem">
+									<div class="card-body">
+										<h5 class="card-title">Noticia 2</h5>
+										<p> Exemplo de noticia para verificação de identação</p>
+										<a href="#" class="btn btn-primary">Visitar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img class="card-img-top" src".../100px100" alt="Imagem">
+									<div class="card-body">
+										<h5 class="card-title">Noticia 3</h5>
+										<p> Exemplo de noticia para verificação de identação</p>
+										<a href="#" class="btn btn-primary">Visitar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img class="card-img-top" src".../100px100" alt="Imagem">
+									<div class="card-body">
+										<h5 class="card-title">Noticia 4</h5>
+										<p> Exemplo de noticia para verificação de identação</p>
+										<a href="#" class="btn btn-primary">Visitar</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col area2 col-sm-4">
+						<div class="list-group">
+							<a href="#" class="media list-group-item list-group-item-action flex-column align-items-start">
+								<img class="mr-3" src=".../64x64" alt="Imagem de exemplo genérica">
+								<div class="media-body">
+									<h5 class="mt-0">Cabeçalho da mídia</h5>
+									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+									vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+									congue felis in faucibus.
+								</div>
+							</a>
+						</div>			
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+		</footer>
+		<script src="/js/jquery-3.6.0.min.js"></script>
 	</body>
 </html>
